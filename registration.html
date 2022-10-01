@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+        <title>Electrix: An elctronic commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header>
+
+        <!--nav2 start-->
+        <nav class="nav2">
+            <div class="nav2-left">
+                <i class="fa fa-phone"></i>+977 9865327412
+                <i class="fa fa-envelope"></i> electrixsuppot@gmail.com
+            </div>
+
+            <div class="nav2-center">
+                <h1><a href=index.html>Electrix</a></h1>
+                <p>Become the member of large innovative group.</p>
+            </div>
+
+            <div class="nav2-right">
+                <i class="fa fa-star"></i>Learn More
+            </div>
+        </nav>
+        <!--nav2 end-->
+    </header>
+      
+    <!--registration start-->
+    <div class="container">
+        
+        <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" name="name" id="name" placeholder="your name"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="text" name="email" id="email" placeholder="your email"></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+              <td><label for="phoneNumber">Phone Number:</label></td>
+              <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender:</label></td>
+              <td>Male: <input type="radio" name="gender" value="male">
+                Female: <input type="radio" name="gender" value="female">
+                Other: <input type="radio" name="gender" value="other"></td>
+            </tr>
+            <tr>
+              <td><label for="language">language</label></td>
+              <td>
+                <select name="language" id="language">
+                  <option value="">Select language</option>
+                  <option value="English">English</option>
+                  <option value="Spanish">Spanish</option>
+                  <option value="Hindi">Hindi</option>
+                  <option value="Arabic">Arabic</option>
+                  <option value="Russian">Russian</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="zipcode">Zip Code:</label></td>
+              <td><input type="number" name="zipcode" id="zipcode"></td>
+            </tr>
+            <tr>
+              <td><label for="about">About:</label></td>
+              <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+            </tr>
+          </table>
+        </form>
+    </div>
+      <!--registration end-->
+
+      <!--footer start-->
+      <footer>
+        <div>
+            <h1>Electrix</h1>
+                <p>An Electronic Commerce</p>
+        </div>
+        <div>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+                <i class="fa fa-whatsapp"></i>
+                <p><br>Design by Group 4</p>
+        </div>
+        <div>
+            <p>
+                @2022 Copyright All Rights Reserved
+            </p>
+        </div>
+      </footer>
+      <!--footer end-->
+
+</body>
+
+</html>
